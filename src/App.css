@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.poke {
+  display: flex;
+  width: 650px;
+  height: 400px;
+  object-fit: fill;
+  align-items: center;
+  margin-bottom: 100px;
+
+}
+
+.dex {
+  position: absolute;
+  z-index:-1;
+}
+
+.logo {
+  position: relative;
+  bottom: 100px;
+
+}
+
+.next-pokemon {
+  font-size: 35px;
+  z-index: 10;
+  position: relative;
+  top: 150px;
+  
+  background-color: #df0404;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+
+  border-radius: 50%;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+}
+
+h3,h5 {
+  margin: 0;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
